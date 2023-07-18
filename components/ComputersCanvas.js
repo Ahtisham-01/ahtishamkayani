@@ -51,15 +51,10 @@ const ComputersCanvas = () => {
 
   return (
     <div
-      className="w-full h-[500px] md:h-[600px] lg:h-[700px] xl:h-[800px] 2xl:h-[900px]"
+      className="w-full h-[70%]"
 
     >
-      <div className='w-full max-w-[1280px] mx-auto pt-24'>
-        <h1 className='text-[40px] font-bold leading-[150%]'>Hi, i'm <span className='text-[#A020F0] text-[3rem] leading-5 font-extrabold'>Ahtisham kiani</span> </h1>
-        <p className='pt-4 font-medium text-[18px] w-full max-w-[450px] leading-6'>
-          Software Developer | Mastering React.js | Next.js | React3Fiber | Three.js | 3D Modaeling
-        </p>
-      </div>
+     
       <Canvas
         camera={{ position: [20, 3, 5], fov: 25 }}
         gl={{ preserveDrawingBuffer: true }}

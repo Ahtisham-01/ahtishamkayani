@@ -2,8 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-
-
 @media (prefers-color-scheme: dark) {
   :root {
     --foreground-rgb: 255, 255, 255;
@@ -11,7 +9,6 @@
     --background-end-rgb: 0, 0, 0;
   }
 }
-
 
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
 
@@ -51,4 +48,45 @@ body {
 a {
   text-decoration: none;
   color: inherit;
+}
+.heading {
+  font-family: Poppins, Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  line-height: 1.5;
+  font-size: 10px;
+  color: rgb(217, 217, 217);
+}
+.subheading {
+  font-family: Poppins, Helvetica, Arial, sans-serif;
+  font-size: 2.125rem;
+  line-height: 1.235;
+  font-weight: 900;
+}
+.paragraph {
+  font-family: Poppins, Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  line-height: 1.5;
+  font-size: 14px;
+  color: rgb(217, 217, 217);
+}
+.maincont {
+  height: 200px;
+  width: 200px;
+  border: 2px solid rgb(28, 21, 59);
+  border-radius: 0.5rem;
+  transform: perspective(1000px) rotateX(0deg) rotateY(0deg) scale3d(1, 1, 1);
+}
+.bd {
+  border: 2px solid rgb(28, 21, 59);
+  border-radius: 0.5rem;
+  transform: perspective(1000px) rotateX(0deg) rotateY(0deg) scale3d(1, 1, 1);
+}
+.pointer {
+  background-color: #a020f0;
+}
+.techheading{
+  font-family: Poppins, Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  line-height: 1.5;
+  font-size: 10px;
 }
