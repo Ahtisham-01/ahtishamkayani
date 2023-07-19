@@ -5,7 +5,7 @@ const Navbar = () => {
 
         <nav className="z-30 bg-transparent border-gray-200     ">
             <div className="flex flex-wrap justify-between items-center mx-auto max-w-screen-xl p-4">
-                <a href="https://flowbite.com" className="flex items-center">
+                <a href="#" className="flex items-center">
                     <img src="https://tuk-cdn.s3.amazonaws.com/can-uploader/user-original-modified.png" className="h-8 mr-3" alt="Flowbite Logo" />
                     <span className="self-center text-2xl font-semibold whitespace-nowrap ">Ahtisham kiani</span>
                 </a>
@@ -19,7 +19,7 @@ const Navbar = () => {
                 <div id="mega-menu-full" className="items-center justify-between font-medium hidden w-full md:flex md:w-auto md:order-1">
                     <ul className="flex flex-col  mt-4 border border-gray-100 rounded-lg  md:flex-row md:space-x-8 md:mt-0 md:border-0  ">
                         <li>
-                            <a href="#" className="block py-2 pl-3 pr-4  text-gray-100 rounded hover:bg-[#A020F0]   p-2 dark:text-white" >Overview</a>
+                            <a href="contact" className="block py-2 pl-3 pr-4  text-gray-100 rounded hover:bg-[#A020F0]   p-2 dark:text-white" >Overview</a>
                         </li>
                         <li>
                             <a href="#" className="block py-2 pl-3 pr-4 text-gray-100 rounded hover:bg-[#A020F0]    p-2 dark:text-white " >Experience</a>

@@ -16,7 +16,7 @@ const Technologies = () => {
     return (
 
 
-        <div className="flex  gap-2 flex-col flex-wrap w-full max-w-[1280px] mx-auto p-4">
+        <div className="flex  gap-2 flex-col flex-wrap w-full max-w-[1280px] mx-auto px-4 pb-4 pt-20">
             <p
                 className="heading"
             >
