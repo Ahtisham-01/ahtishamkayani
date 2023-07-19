@@ -53,8 +53,10 @@ const Navbar = () => {
             <div id='experience'>
             <Experience />
             </div>
+            <div id='project'>
             <Technologies />
             <Projects />
+            </div>
             <div className='absolute w-full h-full z-[-10000]' >
                 <StarsCanvas />
             </div>
