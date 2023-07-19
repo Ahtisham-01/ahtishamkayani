@@ -3,8 +3,8 @@ import React from "react";
 
 export default function Experience() {
   return (
-    <section className="bg-transparent dark:bg-gray-800 p-4">
-      <div className="w-full max-w-[1280px] mx-auto  md:h-48 bg-transparent dark:bg-gray-800">
+    <section className="bg-transparent  p-4">
+      <div className="w-full max-w-[1280px] mx-auto  md:h-48 bg-transparent ">
         <h1 className=" text-5xl md:text-8xl  font-bold md:py-20 text-center md:text-left">
           Experience
         </h1>
@@ -40,7 +40,7 @@ export default function Experience() {
 
 const ExperienceCard = ({ title, desc, year, company, companyLink }) => {
   return (
-    <div className="relative experience-card border p-4 rounded-md shadow-xl bd dark:bg-gray-800 z-10 mx-4">
+    <div className="relative experience-card border p-4 rounded-md shadow-xl bd  z-10 mx-4">
       <h1 className="absolute -top-10 md:-left-10 md:-top-10 text-4xl text-gray-200 font-bold dark:text-gray-800">
         {year}
       </h1>
