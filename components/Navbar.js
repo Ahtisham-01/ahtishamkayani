@@ -1,5 +1,5 @@
 import React from 'react'
-// import Scenes from '../components/ComputersCanvas'
+import Scenes from '../components/ComputersCanvas'
 import Introduction from '@/components/Introduction'
 import Heading from '@/components/Heading'
 import Experience from '@/components/Experience'
@@ -7,7 +7,6 @@ import Technologies from '@/components/Technologies'
 import Contact from '@/components/Contact'
 import dynamic from 'next/dynamic'
 import Projects from '@/components/Projects'
-const Scenes = dynamic(() => import('@/components/ComputersCanvas'), { ssr: false })
 const StarsCanvas = dynamic(() => import('@/components/StarsCanvas'), { ssr: false })
 const Navbar = () => {
     return (
@@ -46,37 +45,22 @@ const Navbar = () => {
 
             </nav>
 
-            <div className='absolute w-full h-full z-[-10000]' >
-                <StarsCanvas />
-            </div>
             <Heading />
-            
             <Scenes />
-            <div className='absolute w-full h-full z-[-10000]' >
-                <StarsCanvas />
-            </div>
             <div id='overview'>
-                <Introduction />
-            </div>
-            <div className='absolute w-full h-full z-[-10000]' >
-                <StarsCanvas />
+            <Introduction />
             </div>
             <div id='experience'>
-                <Experience />
+            <Experience />
             </div>
-            <div className='absolute w-full h-full z-[-10000]' >
-                <StarsCanvas />
-            </div>
-            <div id='project'>
-                <Technologies />
-                <Projects />
-            </div>
+            <Technologies />
+            <Projects />
             <div className='absolute w-full h-full z-[-10000]' >
                 <StarsCanvas />
             </div>
             <div id='contact'>
 
-                <Contact />
+            <Contact />
             </div>
         </>
 
