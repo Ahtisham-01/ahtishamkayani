@@ -27,9 +27,12 @@
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
 }
-
+html{
+  scroll-behavior: smooth !important;
+}
 body {
   margin: 0;
+  overscroll-behavior-y: none;
 }
 .cool-background {
   position: fixed;

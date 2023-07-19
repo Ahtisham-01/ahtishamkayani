@@ -9,7 +9,7 @@ const Contact = () => {
     return (
         <div
             className="w-full max-w-[1280px] mx-auto pt-20 px-4"
-            id="Contact">
+           >
 
             <div
 
