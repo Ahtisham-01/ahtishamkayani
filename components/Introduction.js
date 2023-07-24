@@ -14,7 +14,7 @@ const Introduction = () => {
                 <div>
 
                     <div className='flex flex-col  gap-4 maincont justify-center items-center' >
-                        <img className='w-[40px] h-[40px]' src="/images/web.png" />
+                        <img className='w-[40px] h-[40px] animate' src="/images/web.png" />
                         <p >Web Developer</p></div>
 
                 </div>
