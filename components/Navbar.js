@@ -71,9 +71,7 @@ const Navbar = () => {
 
                 <Contact />
             </div>
-            <div className='w-full h-[500px] bgimg'>
-
-</div>
+     
         </>
 
     )
