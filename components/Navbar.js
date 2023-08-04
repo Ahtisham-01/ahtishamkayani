@@ -47,10 +47,10 @@ const Navbar = () => {
             </nav>
 
             <Heading />
-            
-             
-                <HomePageParticle />
-           
+
+
+            <HomePageParticle />
+
 
             <div id='overview'>
                 <Introduction />
@@ -61,7 +61,7 @@ const Navbar = () => {
             <Scenes />
             <div id='project'>
                 <Technologies />
-             
+
                 <Projects />
             </div>
             <div className='absolute w-full h-full z-[-10000]' >
@@ -71,6 +71,9 @@ const Navbar = () => {
 
                 <Contact />
             </div>
+            <div className='w-full h-[500px] bgimg'>
+
+</div>
         </>
 
     )

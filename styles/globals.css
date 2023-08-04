@@ -323,3 +323,7 @@ a {
 .of:hover{
   background: linear-gradient(90deg,#3b82f6,#4338ca);
 }
+.bgimg{
+  background-image: url("/bg-explosion.png");
+  background-repeat: no-repeat;
+}
