@@ -49,17 +49,17 @@ const Projects = () => {
                 <div className="box">
                     <span></span>
                     <div className="content">
-                        <h2>Card two</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                        <a href="#">Demo link</a>
+                        <h2>3DShirt Customizer</h2>
+                        <p>In this 3D shirt customizer project you can Customize your shirt according to your need.</p>
+                        <a href="https://3-d-tshirt-customizer-eight.vercel.app/">Demo link</a>
                     </div>
                 </div>
                 <div className="box">
                     <span></span>
                     <div className="content">
-                        <h2>Card Three</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                        <a href="#">Demo link</a>
+                        <h2>GeekFlare</h2>
+                        <p>Your personal Ai assistant in which you can write your email , letter and whatever you want.</p>
+                        <a href="https://geekflare-fe.vercel.app/">Demo link</a>
                     </div>
                 </div>
             </div>

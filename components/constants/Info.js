@@ -10,7 +10,7 @@ import nodejs from "../../public/images/technologies/nodejs.png";
 import mongodb from "../../public/images/technologies/mongodb.png";
 import git from "../../public/images/technologies/git.png";
 import figma from "../../public/images/technologies/figma.png";
-import flutter from "../../public/images/technologies/flutter.png";
+import flutter from "../../public/images/technologies/next-js.svg";
 import dart from "../../public/images/technologies/dart.png";
 import firebase from "../../public/images/technologies/firebase.png";
 import threejs from "../../public/images/technologies/threejs.svg";
@@ -57,30 +57,23 @@ export const Infos = {
       name: "Tailwind CSS",
       icon: tailwind,
     },
-    {
-      name: "Node JS",
-      icon: nodejs,
-    },
-    {
-      name: "MongoDB",
-      icon: mongodb,
-    },
+  
     {
       name: "Three JS",
       icon: threejs,
     },
     {
-      name: "Flutter",
+      name: "Next JS",
       icon: flutter,
     },
     // {
     //   name: "Dart",
     //   icon: dart,
     // },
-    {
-      name: "Firebase",
-      icon: firebase,
-    },
+    // {
+    //   name: "Firebase",
+    //   icon: firebase,
+    // },
     {
       name: "git",
       icon: git,

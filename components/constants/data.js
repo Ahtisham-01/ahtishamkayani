@@ -65,7 +65,7 @@ const userData = {
         company: "Alphasquad",
         year: "2023",
         companyLink: "",
-        desc: "fron end developer working on Next.js, React.js, Three.js, & React3Fiber. ",
+        desc: "front end developer working on Next.js, React.js, Three.js, & React3Fiber. ",
       },
       {
         title: "Part time Game Developer",
